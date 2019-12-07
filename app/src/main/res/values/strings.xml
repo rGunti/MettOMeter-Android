@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MettOMeter</string>
+
+    <string name="no_speed">---</string>
+
+    <string name="speed_unit"> / sec</string>
+    <string name="speed_unit_kph">km/h</string>
+
+    <string name="about_button">Über MettOMeter</string>
+
+    <string name="mettbroetchen">Mettbrötchen</string>
+
+    <string name="about_text">
+        &#169; 2019, rGunti\n
+        \n
+        Auf Basis eines Podcasts entstanden zeigt diese App die aktuelle Geschwindigkeit in
+        Mettbrötchen pro Sekunde an, wobei ein Mettbrötchen einer Länge von 13 cm entspricht.\n
+        \n
+        Shoutout an Oli und Flo von "Die Sprechstunde" für den Insider :D\n
+        \n
+        Diese App ist zur reinen Unterhaltung gedacht und ist in keinem Fall für die Nutzung
+        im Strassenverkehr geeignet. Die Nutzung der App geschieht auf eigene Gefahr.\n
+        \n
+        Bread icon by icons8.com\n
+        \n
+        App Icon uses base material licensed under CC BY-SA 3.0 by Nicolai Schäfer.
+        (https://creativecommons.org/licenses/by-sa/3.0/)
+    </string>
+    <string name="ok">OK</string>
+    <string name="about_title">Über MettOMeter</string>
+</resources>

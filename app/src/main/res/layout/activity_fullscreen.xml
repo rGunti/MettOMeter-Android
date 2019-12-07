@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <!-- Speed Value (Mettb/sec) -->
+        <TextView
+            android:id="@+id/speed_mettbps"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="-70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/no_speed"
+            android:textColor="#cccccc"
+            android:textSize="160sp"
+            android:textStyle="bold"
+            />
+
+        <!-- Bread icon -->
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="-40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:src="@mipmap/bread"
+            android:contentDescription="@string/mettbroetchen"
+            />
+
+        <!-- Speed unit -->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/speed_unit"
+            android:textColor="#cccccc"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <!-- KMH -->
+        <TextView
+            android:id="@+id/speed_kmh"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/no_speed"
+            android:textColor="#cccccc"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="140dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/speed_unit_kph"
+            android:textColor="#cccccc"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="180dp"
+            />
+
+        <Button
+            android:id="@+id/about_button"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:text="@string/about_button" />
+    </FrameLayout>
+
+</FrameLayout>
